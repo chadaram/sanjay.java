@@ -1,0 +1,25 @@
+public class Sanjay
+{
+ int a;
+  public Sanjay(String name)
+  {
+    System.out.println("My name is : " +name);
+  }
+  public  void Putdata(int x)
+  {
+    a=x;
+  }
+  public int Getdata()
+  {
+    System.out.println("AGE : " +a);
+    return a;
+    
+  }
+  public static void main(String args[])
+  {
+    Sanjay details = new Sanjay("SANJAY");
+    details.Putdata(18);
+    details.Getdata();
+    System.out.println("exact age is : " +details.a);
+  }
+}
