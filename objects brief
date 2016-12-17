@@ -1,0 +1,54 @@
+import java.io.*;
+public class Sanjay 
+{
+  String name;
+  int age;
+  String designation;
+  double salary;
+  public Sanjay(String name)
+  {
+    this.name=name;
+  }
+  public void getage(int getage)
+  {
+    age=getage;
+  }
+  public void getdesig(String getdesig)
+  {
+    designation=getdesig;
+  }
+  public void getsalary(double getsalary)
+  {
+    salary=getsalary;
+  }
+  public void printSanjay()
+  {
+    System.out.println(" NAME : " + name);
+    System.out.println(" age  : " +  age);
+    System.out.println(" DSG  : " +  designation);
+    System.out.println(" salary: " + salary);
+  }
+}
+
+public class Sanjaytest
+{
+  public static void main(String args[])
+  {
+    Sanjay empo = new Sanjay("SANJAY DEEKSHIT");
+    Sanjay empl = new Sanjay("CHADARAM PREETHAM");
+    empo.getage(18);
+    empo.getdesig("Hello");
+    empo.getsalary(20000);
+    empo.printSanjay();
+    empl.getage(16);
+    empl.getdesig("Hello world");
+    empl.getsalary(30000);
+    empl.printSanjay();
+  }
+}
+    
+    
+    
+
+
+    
